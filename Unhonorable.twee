@@ -1,0 +1,155 @@
+:: StoryTitle
+Unhonorable
+
+
+:: StoryData
+{
+  "ifid": "929710E5-45BA-46CE-B6B2-20051A4A1208",
+  "format": "Harlowe",
+  "format-version": "3.3.8",
+  "start": "Main menu",
+  "zoom": 1
+}
+
+
+:: \ Approach {"position":"500,1000","size":"100,100"}
+He is a necromancer! You join his legion of the undead!
+
+<img src="https://whiteb6633.github.io/openart-image_4cGgZkCW_1709570482429_raw.png" width = "500">
+
+-> [[Title Screen]] 
+
+
+
+:: \ Fight the goblins\  {"position":"100,600","size":"100,100"}
+You underestimated the goblins. You died.
+->[[Title Screen]]
+
+
+
+
+:: \ Fighting the dragon {"position":"200,200","size":"100,100"}
+You slay the dragon! Your name goes down in legend!
+
+-> [[Title Screen]]
+
+
+
+:: \ Left {"position":"400,600","size":"100,100"}
+You are ambushed by goblins! Fight or run?
+[[Fight -> Fight the goblins ]]
+[[ Run from goblins]]
+
+
+:: \ Mountain Troll {"position":"1300,200","size":"100,100"}
+The troll breaks through your armor and eats you whole.
+->[[Title Screen]]
+
+
+
+:: \ Run from goblins {"position":"100,800","size":"100,100"}
+You are surrounded and cannot escape!
+[[ Fight the goblins ]]
+
+
+:: \ Shield {"position":"1000,500","size":"100,100"}
+You leave the hall of fortitude to test your resilience. Cross the lake or climb the mountain? Choose!
+[[Lake]] 
+[[Mountain]]
+
+
+:: Dismiss {"position":"700,1000","size":"100,100"}
+He insists
+[[ Approach]]
+
+
+:: Flee {"position":"1400,400","size":"100,100"}
+The terrain is to complex. You cannot escape. 
+[[ Mountain Troll]]
+
+
+:: Hydra {"position":"1300,800","size":"100,100"}
+You persevere. Your armor withstands the beasts fierce onslaught and you take it down. You are reveared across the land.
+-> [[Title Screen]]
+
+
+:: Lake {"position":"1200,600","size":"100,100"}
+In the middle of the lake, a hydra appears. 
+[[Fight->Hydra]]
+[[Row Away]]
+
+<img src="https://whiteb6633.github.io/openart-image_A2j6TFoN_1709570191276_raw.png" width = "500">
+
+
+:: Leave {"position":"1100,1000","size":"100,100"}
+You join the kings court as the magician. Your skills wane, you get fat and lazy. Your contributions...limited.
+
+-> [[Title Screen]] 
+
+
+:: Main menu {"position":"800,300","size":"100,100"}
+To begin your journey, first you must choose a weapon. Choose!
+[[Sword ]]
+[[ Shield]]
+[[Staff]]
+
+
+:: Mountain {"position":"1200,400","size":"100,100"}
+Whilst climbing the mountain, you encounter a troll.
+[[Fight-> Mountain Troll]]
+[[Flee]]
+
+
+:: Right {"position":"400,400","size":"100,100"}
+You enter a cave. A dragon stands before you. Fight or Run?
+[[Fight-> Fighting the dragon]]
+[[Run]]
+
+<img src="https://whiteb6633.github.io/openart-image_m-zNQNSI_1709570023752_raw.png" width = "500">
+
+
+:: Row Away {"position":"1425,600","size":"100,100"}
+The waves created by the hydra make it impossible for you to escape. 
+[[Hydra]]
+
+
+:: Run {"position":"100,400","size":"100,100"}
+The entrance to the cave collapses! You cannot escape!
+[[ Fighting the dragon]]
+
+
+:: School {"position":"900,800","size":"100,100"}
+You focus on your studies and graduate at the top of your class.
+[[Stay]]
+[[Leave]]
+
+
+:: Staff {"position":"800,600","size":"100,100"}
+You leave the tower to develop wisdom. Go to town or go to school?
+[[Town]]
+[[School]]
+
+
+:: Stay {"position":"900,1000","size":"100,100"}
+You spend your remaining years as a teacher of the school, your contributions, limitless.
+-> [[Title Screen]] 
+
+
+
+:: Sword\  {"position":"600,500","size":"100,100"}
+You leave the fighting pits to test your mettle. The road forks before you. Choose!
+[[ Left]]
+[[Right]]
+
+
+:: Title Screen {"position":"800,100","size":"100,100"}
+UNHONORABLE
+-> [[Main menu]]
+
+<img src="https://whiteb6633.github.io/openart-image_XgF2LMYE_1709568652177_raw.png" width = "500">
+
+
+:: Town {"position":"700,800","size":"100,100"}
+Your first stop was the pub. A dark/gloomy person waves you over.
+[[-> Approach]]
+[[Dismiss]]
